@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Department Of Information Systems Homepage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+}
+
+header input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+div {
+  background-color: black;
+  padding: 3px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+.navigation
+{
+  
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 15px;
+  color: white;
+  margin-left:30px;
+  margin-right:30px;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+background-color: gold;
+  padding: 1px;
+  overflow: hidden;
+  background-color:
+font-size: 15px;  ;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.sidebartitle
+{
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  height: 500px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f1f1f1;
+  height: 500px; 
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: Gold;
+  padding: 5px;
+  text-align: center;
+  
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+<img src="UMBClogo.png" alt="UMBC logo">
+ <input type="text" placeholder="Search..">
+</header>
+
+<div>
+<h1> Department of Information Systems </h1>
+
+</div>
+
+<div class="topnav">
+<a href="UMBCinformationSystemsHome.html">Home</a>
+<a href="Contact.html">Contact     </a>
+<a href="Undergraduate.html">Undergraduate </a>
+<a href="#">Graduate       </a>
+<a href="#">People        </a>
+<a href="#">Research      </a>
+</div>
+
+
+
+<section>
+
+  <nav>
+ <h1>
+UMBC News
+</h1>
+    <ul>
+       <li><a href="#">“Researching” to “researcher”: UMBC students share why mentoring is the key</a></li>
+	  <br>
+      <li><a href="#">Retrievers win America East Men’s Lacrosse Championship, head to NCAA tournament</a></li>
+	  <br>
+      <li><a href="#">UMBC alumna Adrienne Jones makes history as Maryland Speaker of the House</a></li>
+	  <br>
+      <li><a href="#">Business First names UMBC one of nation’s best public universities</a></li>
+	  <br>
+      <li><a href="#">UMBC Meyerhoff Scholars replications at Penn State, UNC show notable success in first four years</a></li>   </ul>
+  </nav>
+  
+  <article>
+  <img src="Contentgirl.png" alt="girl">
+ 
+     </article>
+</section>
+
+<footer>
+  <p>Social Media</p>
+  <a href="https://www.facebook.com/umbcpage/"> <img src="Socialmedia.png" alt="social media"></a>
+</footer>
+
+</body>
+</html>
